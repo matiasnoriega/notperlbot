@@ -9,7 +9,7 @@ Sysarmy como comunidad aprendió que perl es lindo, pero también una cosa críp
 Como contribuir:
 
 ```
-pip install < requirements.txt
+pip install -r requirements.txt
 cd errbot
 # to get some initial configurations for local develompent
 cd errbot
