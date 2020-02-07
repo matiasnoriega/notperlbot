@@ -9,9 +9,9 @@ class Roll(BotPlugin):
 
         numbers = args.split('d', 1)
 
-        if not numbers[0].isdigit() is True:
+        if not numbers[0].isdigit() == True:
             return "la cantidad de dados debe ser un numero"
-        if not numbers[1].isdigit() is True or numbers[1] is '0':
+        if not numbers[1].isdigit() == True or numbers[1] == '0':
             return "la cantidad de caras debe ser un numero distinto de 0"
 
         dados = int(numbers[0])
