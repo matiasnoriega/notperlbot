@@ -1,0 +1,9 @@
+[Core]
+Name = Roll
+Module = roll
+
+[Documentation]
+Description = This is a simple plugin to roll dices.
+
+[Python]
+Version = 2+
