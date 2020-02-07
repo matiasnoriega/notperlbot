@@ -9,6 +9,8 @@ class Roll(BotPlugin):
 
         numbers = args.split('d', 1)
 
+        if len(numbers) != 2:
+            return "poneme la cantidad de caras del dado, no soy mago"
         if not numbers[0].isdigit() == True:
             return "la cantidad de dados debe ser un numero"
         if not numbers[1].isdigit() == True or numbers[1] == '0':
